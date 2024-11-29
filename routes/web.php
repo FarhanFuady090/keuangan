@@ -13,9 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('login');
-});
+use App\Http\Controllers\Auth\LoginController;
+
+Route::get('/', [LoginController::class, 'showLoginForm'])->name('login');
+Route::post('/', [LoginController::class, 'login']);
+Route::get('/dashboard', function () {
+    return view('dashboard'); // Ganti dengan view yang sesuai
+})->middleware('auth');
+Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
 Route::get('/manage-user', action: function () {
     return view(view: 'manage-user');
 });
