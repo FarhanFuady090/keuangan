@@ -42,4 +42,28 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
     ];
+
+     // Relasi dengan Role
+    //  public function roles()
+    //  {
+    //      return $this->belongsToMany(Role::class);
+    //  }
+
+    //  // Metode untuk menambahkan peran
+    //  public function assignRole($role)
+    //  {
+    //      return $this->roles()->attach($role);
+    //  }
+
+    //  // Metode untuk menghapus peran
+    //  public function removeRole($role)
+    //  {
+    //      return $this->roles()->detach($role);
+    //  }
+
+    //  // Metode untuk memeriksa peran
+    //  public function hasRole($role)
+    //  {
+    //      return $this->roles()->where('name', $role)->exists();
+    //  }
 }

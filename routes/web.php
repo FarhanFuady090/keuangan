@@ -17,28 +17,25 @@ use App\Http\Controllers\Auth\LoginController;
 
 Route::get('/', [LoginController::class, 'showLoginForm'])->name('login');
 Route::post('/', [LoginController::class, 'login']);
-Route::get('/dashboard', function () {
-    return view('dashboard'); // Ganti dengan view yang sesuai
+Route::get('/admin/manage-biaya', function () {
+    return view(view: 'admin.manage-biaya'); // Ganti dengan view yang sesuai
+})->middleware('auth');
+Route::get('/admin/manage-data-siswa', function () {
+    return view('admin.manage-data-siswa'); // Ganti dengan view yang sesuai
+})->middleware('auth');
+Route::get('/admin/manage-jenis-pembayaran', function () {
+    return view('admin.manage-jenis-pembayaran'); // Ganti dengan view yang sesuai
+})->middleware('auth');
+Route::get('/admin/manage-kelas', function () {
+    return view('admin.manage-kelas'); // Ganti dengan view yang sesuai
+})->middleware('auth');
+Route::get('/admin/manage-tahun-ajaran', function () {
+    return view('admin.manage-tahun-ajaran'); // Ganti dengan view yang sesuai
+})->middleware('auth');
+Route::get('/admin/manage-unit-pendidikan', function () {
+    return view('admin.manage-unit-pendidikan'); // Ganti dengan view yang sesuai
+})->middleware('auth');
+Route::get('/admin/manage-user', function () {
+    return view('admin.manage-user'); // Ganti dengan view yang sesuai
 })->middleware('auth');
 Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
-Route::get('/manage-user', action: function () {
-    return view(view: 'manage-user');
-});
-Route::get('/manage-unit-pendidikan', function () {
-    return view(view: 'manage-unit-pendidikan');
-});
-Route::get('/manage-jenis-pembayaran', function () {
-    return view(view: 'manage-jenis-pembayaran');
-});
-Route::get('/manage-data-siswa', action: function () {
-    return view(view: 'manage-data-siswa');
-});
-Route::get('/manage-kelas', function () {
-    return view('manage-kelas');
-});
-Route::get('/manage-tahun-ajaran', action: function () {
-    return view(view: 'manage-tahun-ajaran');
-});
-Route::get('/manage-biaya', action: function () {
-    return view(view: 'manage-biaya');
-});

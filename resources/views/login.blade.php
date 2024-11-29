@@ -23,12 +23,20 @@
         <form action="{{ route('login') }}" method="POST">
             @csrf
             <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" name="email" id="email" required>
+                <label for="username">Username:</label>
+                <input type="username" name="username" id="username" required>
             </div>
             <div class="form-group">
                 <label for="password">Password:</label>
                 <input type="password" name="password" id="password" required>
+            </div>
+            <div>
+                <input type="radio" id="role" name="role" value="admin">
+                <label for="admin">ADMIN</label>
+                <input type="radio" id="role" name="role" value="tupusat">
+                <label for="tupusat">TU PUSAT</label>
+                <input type="radio" id="role" name="role" value="tuunit">
+                <label for="tuunit">TU UNIT</label>
             </div>
             <button type="submit">Login</button>
         </form>
