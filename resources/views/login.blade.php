@@ -30,14 +30,14 @@
                 <label for="password">Password:</label>
                 <input type="password" name="password" id="password" required>
             </div>
-            <div>
+            {{-- <div>
                 <input type="radio" id="role" name="role" value="admin">
                 <label for="admin">ADMIN</label>
                 <input type="radio" id="role" name="role" value="tupusat">
                 <label for="tupusat">TU PUSAT</label>
                 <input type="radio" id="role" name="role" value="tuunit">
                 <label for="tuunit">TU UNIT</label>
-            </div>
+            </div> --}}
             <button type="submit">Login</button>
         </form>
     </div>

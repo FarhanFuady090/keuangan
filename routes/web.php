@@ -17,9 +17,11 @@ use App\Http\Controllers\Auth\LoginController;
 
 Route::get('/', [LoginController::class, 'showLoginForm'])->name('login');
 Route::post('/', [LoginController::class, 'login']);
-Route::get('/admin/manage-biaya', function () {
-    return view(view: 'admin.manage-biaya'); // Ganti dengan view yang sesuai
-})->middleware('auth');
+// Route::middleware(['auth', 'role:admin'])->group(function () {
+//     Route::get('/admin/manage-biaya', function () {
+//         return view('admin.manage-biaya');
+//     })->name('admin.manage-biaya');
+// });
 Route::get('/admin/manage-data-siswa', function () {
     return view('admin.manage-data-siswa'); // Ganti dengan view yang sesuai
 })->middleware('auth');

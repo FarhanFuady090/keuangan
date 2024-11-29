@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('users', function (Blueprint $table) {
+        Schema::create('user', function (Blueprint $table) {
             $table->id();
             $table->string('username')->primary();
             $table->string('password');
@@ -23,13 +23,13 @@ return new class extends Migration
             $table->timestamps();
         });
 
-        Schema::create('roles', function (Blueprint $table) {
+        Schema::create('role', function (Blueprint $table) {
             $table->id();
             $table->string('name')->unique();
             $table->timestamps();
         });
 
-        Schema::create('model_has_roles', function (Blueprint $table) {
+        Schema::create('model_has_role', function (Blueprint $table) {
             $table->string('role_id');
             $table->string('nama_unit');
             $table->string('id_unitpendidikan');

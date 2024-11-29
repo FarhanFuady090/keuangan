@@ -10,28 +10,31 @@ class LoginController extends Controller
 {
     public function showLoginForm()
     {
-        return view('login');
+        return view('login'); // Menampilkan form login
     }
 
     public function login(Request $request)
     {
+        // Validasi input
         $request->validate([
-            'email' => 'required|email',
-            'password' => 'required',
+            'username' => 'required|string',
+            'password' => 'required|string',
         ]);
 
-        if (Auth::attempt(['email' => $request->email, 'password' => $request->password])) {
-            return redirect()->intended('dashboard'); // Ganti dengan rute yang sesuai
+        // Coba untuk melakukan autentikasi
+        if (Auth::attempt(['username' => $request->username, 'password' => $request->password])) {
+            return redirect()->intended('admin.manage-biaya'); // Ganti dengan rute yang sesuai
         }
 
+        // Jika autentikasi gagal, kembalikan ke halaman sebelumnya dengan pesan kesalahan
         return back()->withErrors([
-            'email' => 'The provided credentials do not match our records.',
-        ]);
+            'username' => 'The provided credentials do not match our records.',
+        ])->withInput($request->only('username'));
     }
 
     public function logout(Request $request)
     {
-        Auth::logout();
-        return redirect('/login');
+        Auth::logout(); // Melakukan logout
+        return redirect('/login'); // Redirect ke halaman login
     }
 }
