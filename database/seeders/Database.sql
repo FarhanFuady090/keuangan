@@ -1,113 +1,130 @@
-LastSessions<|||>1<|||>Laragon.MySQL
-LastActiveSession<|||>1<|||>Laragon.MySQL
-ColWidths_connform.ListSessions<|||>1<|||>163,50,50,50,50,50,10
-ColsVisible_connform.ListSessions<|||>1<|||>0,1,4,6
-ColPositions_connform.ListSessions<|||>1<|||>0,1,2,3,4,5,6
-ColSort_connform.ListSessions<|||>1<|||>0,0
-MainWinOnMonitor<|||>3<|||>0
-ColWidths_MainForm.ListDatabases<|||>1<|||>150,80,50,50,50,50,50,50,50,50,120
-ColsVisible_MainForm.ListDatabases<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10
-ColPositions_MainForm.ListDatabases<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10
-ColSort_MainForm.ListDatabases<|||>1<|||>0,0
-ColWidths_MainForm.ListVariables<|||>1<|||>160,200,428
-ColsVisible_MainForm.ListVariables<|||>1<|||>0,1,2
-ColPositions_MainForm.ListVariables<|||>1<|||>0,1,2
-ColSort_MainForm.ListVariables<|||>1<|||>0,0
-ColWidths_MainForm.ListStatus<|||>1<|||>160,428,100,100
-ColsVisible_MainForm.ListStatus<|||>1<|||>0,1,2,3
-ColPositions_MainForm.ListStatus<|||>1<|||>0,1,2,3
-ColSort_MainForm.ListStatus<|||>1<|||>0,0
-ColWidths_MainForm.ListProcesses<|||>1<|||>70,80,80,80,80,50,50,254
-ColsVisible_MainForm.ListProcesses<|||>1<|||>0,1,2,3,4,5,6,7
-ColPositions_MainForm.ListProcesses<|||>1<|||>0,1,2,3,4,5,6,7
-ColSort_MainForm.ListProcesses<|||>1<|||>0,1
-ColWidths_MainForm.ListCommandStats<|||>1<|||>120,100,100,100,368
-ColsVisible_MainForm.ListCommandStats<|||>1<|||>0,1,2,3,4
-ColPositions_MainForm.ListCommandStats<|||>1<|||>0,1,2,3,4
-ColSort_MainForm.ListCommandStats<|||>1<|||>1,1
-ColWidths_MainForm.ListTables<|||>1<|||>120,70,70,120,120,70,100,50,70,70,70,70,70,90,120,70,70,70,50
-ColsVisible_MainForm.ListTables<|||>1<|||>0,1,2,3,4,5,6,18
-ColPositions_MainForm.ListTables<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18
-ColSort_MainForm.ListTables<|||>1<|||>0,0
-MainWinWidth<|||>3<|||>993
-MainWinHeight<|||>3<|||>525
-SessionManager_WindowLeft<|||>3<|||>942
-SessionManager_WindowTop<|||>3<|||>252
-Servers\Laragon.MySQL\SessionCreated<|||>1<|||>2022-09-09 20:36:07
-Servers\Laragon.MySQL\Host<|||>1<|||>127.0.0.1
-Servers\Laragon.MySQL\WindowsAuth<|||>3<|||>0
-Servers\Laragon.MySQL\CleartextPluginEnabled<|||>3<|||>0
-Servers\Laragon.MySQL\User<|||>1<|||>root
-Servers\Laragon.MySQL\Password<|||>1<|||>2
-Servers\Laragon.MySQL\LoginPrompt<|||>3<|||>0
-Servers\Laragon.MySQL\Port<|||>1<|||>3306
-Servers\Laragon.MySQL\NetType<|||>3<|||>0
-Servers\Laragon.MySQL\Compressed<|||>3<|||>0
-Servers\Laragon.MySQL\LocalTimeZone<|||>3<|||>0
-Servers\Laragon.MySQL\QueryTimeout<|||>3<|||>30
-Servers\Laragon.MySQL\KeepAlive<|||>3<|||>20
-Servers\Laragon.MySQL\FullTableStatus<|||>3<|||>1
-Servers\Laragon.MySQL\Databases<|||>1<|||>
-Servers\Laragon.MySQL\Library<|||>1<|||>libmysql.dll
-Servers\Laragon.MySQL\Comment<|||>1<|||>
-Servers\Laragon.MySQL\StartupScriptFilename<|||>1<|||>
-Servers\Laragon.MySQL\TreeBackground<|||>3<|||>536870911
-Servers\Laragon.MySQL\SshExecutable<|||>1<|||>plink.exe
-Servers\Laragon.MySQL\SSHtunnelHost<|||>1<|||>
-Servers\Laragon.MySQL\SSHtunnelHostPort<|||>3<|||>22
-Servers\Laragon.MySQL\SSHtunnelUser<|||>1<|||>
-Servers\Laragon.MySQL\SSHtunnelPassword<|||>1<|||>2
-Servers\Laragon.MySQL\SSHtunnelTimeout<|||>3<|||>4
-Servers\Laragon.MySQL\SSHtunnelPrivateKey<|||>1<|||>
-Servers\Laragon.MySQL\SSHtunnelPort<|||>3<|||>3307
-Servers\Laragon.MySQL\SSL_Active<|||>3<|||>0
-Servers\Laragon.MySQL\SSL_Key<|||>1<|||>
-Servers\Laragon.MySQL\SSL_Cert<|||>1<|||>
-Servers\Laragon.MySQL\SSL_CA<|||>1<|||>
-Servers\Laragon.MySQL\SSL_Cipher<|||>1<|||>
-Servers\Laragon.MySQL\IgnoreDatabasePattern<|||>1<|||>
-Servers\Laragon.MySQL\LogFileDdl<|||>3<|||>0
-Servers\Laragon.MySQL\LogFileDml<|||>3<|||>0
-Servers\Laragon.MySQL\LogFilePath<|||>1<|||>C:\Users\Administrator\AppData\Roaming\HeidiSQL\Logs\%session\%db\%y%m%d.sql
-Servers\Laragon.MySQL\RefusedCount<|||>3<|||>3
-Servers\Laragon.MySQL\ServerVersionFull<|||>1<|||>10.4.32-MariaDB - mariadb.org binary distribution
-Servers\Laragon.MySQL\ConnectCount<|||>3<|||>7
-Servers\Laragon.MySQL\ServerVersion<|||>3<|||>100432
-Servers\Laragon.MySQL\LastConnect<|||>1<|||>2024-11-29 16:09:47
-Servers\Laragon.MySQL\lastUsedDB<|||>1<|||>keuangan
-Servers\Unnamed\SessionCreated<|||>1<|||>2024-11-27 23:30:12
-Servers\Unnamed\Host<|||>1<|||>127.0.0.1
-Servers\Unnamed\WindowsAuth<|||>3<|||>0
-Servers\Unnamed\CleartextPluginEnabled<|||>3<|||>0
-Servers\Unnamed\User<|||>1<|||>root
-Servers\Unnamed\Password<|||>1<|||>5
-Servers\Unnamed\LoginPrompt<|||>3<|||>0
-Servers\Unnamed\Port<|||>1<|||>3306
-Servers\Unnamed\NetType<|||>3<|||>0
-Servers\Unnamed\Compressed<|||>3<|||>0
-Servers\Unnamed\LocalTimeZone<|||>3<|||>0
-Servers\Unnamed\QueryTimeout<|||>3<|||>30
-Servers\Unnamed\KeepAlive<|||>3<|||>20
-Servers\Unnamed\FullTableStatus<|||>3<|||>1
-Servers\Unnamed\Databases<|||>1<|||>
-Servers\Unnamed\Library<|||>1<|||>libmariadb.dll
-Servers\Unnamed\Comment<|||>1<|||>
-Servers\Unnamed\StartupScriptFilename<|||>1<|||>
-Servers\Unnamed\TreeBackground<|||>3<|||>536870911
-Servers\Unnamed\SshExecutable<|||>1<|||>
-Servers\Unnamed\SSHtunnelHost<|||>1<|||>
-Servers\Unnamed\SSHtunnelHostPort<|||>3<|||>22
-Servers\Unnamed\SSHtunnelUser<|||>1<|||>
-Servers\Unnamed\SSHtunnelPassword<|||>1<|||>9
-Servers\Unnamed\SSHtunnelTimeout<|||>3<|||>4
-Servers\Unnamed\SSHtunnelPrivateKey<|||>1<|||>
-Servers\Unnamed\SSHtunnelPort<|||>3<|||>3307
-Servers\Unnamed\SSL_Active<|||>3<|||>0
-Servers\Unnamed\SSL_Key<|||>1<|||>
-Servers\Unnamed\SSL_Cert<|||>1<|||>
-Servers\Unnamed\SSL_CA<|||>1<|||>
-Servers\Unnamed\SSL_Cipher<|||>1<|||>
-Servers\Unnamed\IgnoreDatabasePattern<|||>1<|||>
-Servers\Unnamed\LogFileDdl<|||>3<|||>0
-Servers\Unnamed\LogFileDml<|||>3<|||>0
-Servers\Unnamed\LogFilePath<|||>1<|||>C:\Users\msi\AppData\Roaming\HeidiSQL\Logs\%session\%db\%y%m%d.sql
+/* Delimiter changed to ; */
+/* Connecting to 127.0.0.1 via MariaDB or MySQL (TCP/IP), username root, using password: No ... */
+SELECT CONNECTION_ID();
+SHOW VARIABLES;
+/* Changing character set from latin1 to utf8mb4 */
+/* Characterset: utf8mb4 */
+SHOW /*!50002 GLOBAL */ STATUS;
+SELECT NOW();
+/* Connected. Thread-ID: 28 */
+/* Reading function definitions from C:\laragon\bin\heidisql\functions-mysql.ini */
+SHOW TABLES FROM `information_schema`;
+SHOW DATABASES;
+SHOW OPEN TABLES FROM mysql WHERE `in_use`!=0;
+USE `mysql`;
+/* Entering session "Laragon.MySQL" */
+SELECT `DEFAULT_COLLATION_NAME` FROM `information_schema`.`SCHEMATA` WHERE `SCHEMA_NAME`='mysql';
+SHOW TABLE STATUS FROM `mysql`;
+SHOW FUNCTION STATUS WHERE `Db`='mysql';
+SHOW PROCEDURE STATUS WHERE `Db`='mysql';
+SHOW TRIGGERS FROM `mysql`;
+SELECT *, EVENT_SCHEMA AS `Db`, EVENT_NAME AS `Name` FROM information_schema.`EVENTS` WHERE `EVENT_SCHEMA`='mysql';
+/* Scaling controls to screen DPI: 125% */
+USE `keuangan`;
+SELECT `DEFAULT_COLLATION_NAME` FROM `information_schema`.`SCHEMATA` WHERE `SCHEMA_NAME`='keuangan';
+SHOW TABLE STATUS FROM `keuangan`;
+SHOW FUNCTION STATUS WHERE `Db`='keuangan';
+SHOW PROCEDURE STATUS WHERE `Db`='keuangan';
+SHOW TRIGGERS FROM `keuangan`;
+SELECT *, EVENT_SCHEMA AS `Db`, EVENT_NAME AS `Name` FROM information_schema.`EVENTS` WHERE `EVENT_SCHEMA`='keuangan';
+/* Entering session "Laragon.MySQL" */
+SELECT `DEFAULT_COLLATION_NAME` FROM `information_schema`.`SCHEMATA` WHERE `SCHEMA_NAME`='keuangan';
+SHOW TABLE STATUS FROM `keuangan`;
+SHOW FUNCTION STATUS WHERE `Db`='keuangan';
+SHOW PROCEDURE STATUS WHERE `Db`='keuangan';
+SHOW TRIGGERS FROM `keuangan`;
+SELECT *, EVENT_SCHEMA AS `Db`, EVENT_NAME AS `Name` FROM information_schema.`EVENTS` WHERE `EVENT_SCHEMA`='keuangan';
+/* Entering session "Laragon.MySQL" */
+SELECT `DEFAULT_COLLATION_NAME` FROM `information_schema`.`SCHEMATA` WHERE `SCHEMA_NAME`='keuangan';
+SHOW TABLE STATUS FROM `keuangan`;
+SHOW FUNCTION STATUS WHERE `Db`='keuangan';
+SHOW PROCEDURE STATUS WHERE `Db`='keuangan';
+SHOW TRIGGERS FROM `keuangan`;
+SELECT *, EVENT_SCHEMA AS `Db`, EVENT_NAME AS `Name` FROM information_schema.`EVENTS` WHERE `EVENT_SCHEMA`='keuangan';
+SHOW ENGINES;
+SHOW COLLATION;
+SHOW VARIABLES;
+/* #78: Abstract Error Message CharCode:0 Msg:514 */
+CREATE TABLE `role` (
+	`idrole` INT NOT NULL,
+	`nama_role` VARCHAR(50) NOT NULL,
+	PRIMARY KEY (`idrole`)
+)
+COLLATE='utf8mb4_0900_ai_ci'
+;
+SELECT `DEFAULT_COLLATION_NAME` FROM `information_schema`.`SCHEMATA` WHERE `SCHEMA_NAME`='keuangan';
+SHOW TABLE STATUS FROM `keuangan`;
+SHOW FUNCTION STATUS WHERE `Db`='keuangan';
+SHOW PROCEDURE STATUS WHERE `Db`='keuangan';
+SHOW TRIGGERS FROM `keuangan`;
+SELECT *, EVENT_SCHEMA AS `Db`, EVENT_NAME AS `Name` FROM information_schema.`EVENTS` WHERE `EVENT_SCHEMA`='keuangan';
+SELECT * FROM `information_schema`.`COLUMNS` WHERE TABLE_SCHEMA='keuangan' AND TABLE_NAME='role' ORDER BY ORDINAL_POSITION;
+SHOW INDEXES FROM `role` FROM `keuangan`;
+SELECT * FROM information_schema.REFERENTIAL_CONSTRAINTS WHERE   CONSTRAINT_SCHEMA='keuangan'   AND TABLE_NAME='role'   AND REFERENCED_TABLE_NAME IS NOT NULL;
+SELECT * FROM information_schema.KEY_COLUMN_USAGE WHERE   TABLE_SCHEMA='keuangan'   AND TABLE_NAME='role'   AND REFERENCED_TABLE_NAME IS NOT NULL;
+/* Entering session "Laragon.MySQL" */
+SHOW CREATE TABLE `keuangan`.`role`;
+SELECT tc.CONSTRAINT_NAME, cc.CHECK_CLAUSE FROM `information_schema`.`CHECK_CONSTRAINTS` AS cc, `information_schema`.`TABLE_CONSTRAINTS` AS tc WHERE tc.CONSTRAINT_SCHEMA='keuangan' AND tc.TABLE_NAME='role' AND tc.CONSTRAINT_TYPE='CHECK' AND tc.CONSTRAINT_SCHEMA=cc.CONSTRAINT_SCHEMA AND tc.CONSTRAINT_NAME=cc.CONSTRAINT_NAME;
+/* #73: Abstract Error Message CharCode:0 Msg:514 */
+/* #1634496361: Access violation at address 00000056C1800000 in module 'heidisql.exe'. Execution of address 00000056C1800000 Message CharCode:13 Msg:256 */
+/* #83: Abstract Error Message CharCode:0 Msg:514 */
+/* #1634496361: Access violation at address 00000056C1800000 in module 'heidisql.exe'. Execution of address 00000056C1800000 Message CharCode:13 Msg:256 */
+CREATE TABLE `user` (
+	`username` VARCHAR(50) NOT NULL DEFAULT NULL,
+	`password` VARCHAR(50) NOT NULL DEFAULT NULL,
+	PRIMARY KEY (`username`)
+)
+COLLATE='utf8mb4_0900_ai_ci'
+;
+/* SQL Error (1067): Invalid default value for 'username' */
+CREATE TABLE `user` (
+	`username` VARCHAR(20) NOT NULL DEFAULT NULL,
+	`password` VARCHAR(50) NOT NULL DEFAULT NULL,
+	PRIMARY KEY (`username`)
+)
+COLLATE='utf8mb4_0900_ai_ci'
+;
+/* SQL Error (1067): Invalid default value for 'username' */
+CREATE TABLE `user` (
+	`username` VARCHAR(20) NOT NULL DEFAULT NULL,
+	`password` VARCHAR(50) NOT NULL DEFAULT NULL,
+	PRIMARY KEY (`username`)
+)
+COLLATE='utf8mb4_0900_ai_ci'
+;
+/* SQL Error (1067): Invalid default value for 'username' */
+/* #71: Access violation at address 000000000040F142 in module 'heidisql.exe'. Read of address 0000000000000280 Message CharCode:0 Msg:514 */
+CREATE TABLE `user` (
+	`username` VARCHAR(50) NULL DEFAULT NULL,
+	`password` VARCHAR(50) NULL DEFAULT NULL
+)
+COLLATE='utf8mb4_0900_ai_ci'
+;
+SELECT `DEFAULT_COLLATION_NAME` FROM `information_schema`.`SCHEMATA` WHERE `SCHEMA_NAME`='keuangan';
+SHOW TABLE STATUS FROM `keuangan`;
+SHOW FUNCTION STATUS WHERE `Db`='keuangan';
+SHOW PROCEDURE STATUS WHERE `Db`='keuangan';
+SHOW TRIGGERS FROM `keuangan`;
+SELECT *, EVENT_SCHEMA AS `Db`, EVENT_NAME AS `Name` FROM information_schema.`EVENTS` WHERE `EVENT_SCHEMA`='keuangan';
+SELECT * FROM `information_schema`.`COLUMNS` WHERE TABLE_SCHEMA='keuangan' AND TABLE_NAME='user' ORDER BY ORDINAL_POSITION;
+SHOW INDEXES FROM `user` FROM `keuangan`;
+SELECT * FROM information_schema.REFERENTIAL_CONSTRAINTS WHERE   CONSTRAINT_SCHEMA='keuangan'   AND TABLE_NAME='user'   AND REFERENCED_TABLE_NAME IS NOT NULL;
+SELECT * FROM information_schema.KEY_COLUMN_USAGE WHERE   TABLE_SCHEMA='keuangan'   AND TABLE_NAME='user'   AND REFERENCED_TABLE_NAME IS NOT NULL;
+/* Entering session "Laragon.MySQL" */
+SHOW CREATE TABLE `keuangan`.`user`;
+SELECT tc.CONSTRAINT_NAME, cc.CHECK_CLAUSE FROM `information_schema`.`CHECK_CONSTRAINTS` AS cc, `information_schema`.`TABLE_CONSTRAINTS` AS tc WHERE tc.CONSTRAINT_SCHEMA='keuangan' AND tc.TABLE_NAME='user' AND tc.CONSTRAINT_TYPE='CHECK' AND tc.CONSTRAINT_SCHEMA=cc.CONSTRAINT_SCHEMA AND tc.CONSTRAINT_NAME=cc.CONSTRAINT_NAME;
+SHOW CREATE TABLE `keuangan`.`user`;
+RENAME TABLE `user` TO `users`;
+SELECT `DEFAULT_COLLATION_NAME` FROM `information_schema`.`SCHEMATA` WHERE `SCHEMA_NAME`='keuangan';
+SHOW TABLE STATUS FROM `keuangan`;
+SHOW FUNCTION STATUS WHERE `Db`='keuangan';
+SHOW PROCEDURE STATUS WHERE `Db`='keuangan';
+SHOW TRIGGERS FROM `keuangan`;
+SELECT *, EVENT_SCHEMA AS `Db`, EVENT_NAME AS `Name` FROM information_schema.`EVENTS` WHERE `EVENT_SCHEMA`='keuangan';
+SELECT * FROM `information_schema`.`COLUMNS` WHERE TABLE_SCHEMA='keuangan' AND TABLE_NAME='users' ORDER BY ORDINAL_POSITION;
+SHOW INDEXES FROM `users` FROM `keuangan`;
+SELECT * FROM information_schema.REFERENTIAL_CONSTRAINTS WHERE   CONSTRAINT_SCHEMA='keuangan'   AND TABLE_NAME='users'   AND REFERENCED_TABLE_NAME IS NOT NULL;
+SELECT * FROM information_schema.KEY_COLUMN_USAGE WHERE   TABLE_SCHEMA='keuangan'   AND TABLE_NAME='users'   AND REFERENCED_TABLE_NAME IS NOT NULL;
+/* Entering session "Laragon.MySQL" */
+SHOW CREATE TABLE `keuangan`.`users`;
+SELECT tc.CONSTRAINT_NAME, cc.CHECK_CLAUSE FROM `information_schema`.`CHECK_CONSTRAINTS` AS cc, `information_schema`.`TABLE_CONSTRAINTS` AS tc WHERE tc.CONSTRAINT_SCHEMA='keuangan' AND tc.TABLE_NAME='users' AND tc.CONSTRAINT_TYPE='CHECK' AND tc.CONSTRAINT_SCHEMA=cc.CONSTRAINT_SCHEMA AND tc.CONSTRAINT_NAME=cc.CONSTRAINT_NAME;

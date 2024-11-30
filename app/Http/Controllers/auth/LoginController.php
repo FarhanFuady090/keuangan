@@ -23,13 +23,14 @@ class LoginController extends Controller
 
         // Coba untuk melakukan autentikasi
         if (Auth::attempt(['username' => $request->username, 'password' => $request->password])) {
+            // Jika autentikasi berhasil, redirect ke rute yang sesuai
             return redirect()->intended('admin.manage-biaya'); // Ganti dengan rute yang sesuai
         }
 
         // Jika autentikasi gagal, kembalikan ke halaman sebelumnya dengan pesan kesalahan
         return back()->withErrors([
             'username' => 'The provided credentials do not match our records.',
-        ])->withInput($request->only('username'));
+        ])->withInput($request->only('username')); // Hanya menyimpan input username
     }
 
     public function logout(Request $request)
