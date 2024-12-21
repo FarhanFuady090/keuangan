@@ -7,6 +7,10 @@ Route::get('/', function () {
     return view('landing-page');
 });
 
+Route::get('/user', function () {
+    return view('auth.login');
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
@@ -17,7 +21,7 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-require __DIR__ . '/auth.php';
-require __DIR__ . '/admin-auth.php';
-require __DIR__ . '/tupusat-auth.php';
-require __DIR__ . '/tuunit-auth.php';
+require __DIR__.'/auth.php';
+require __DIR__.'/admin-auth.php';
+require __DIR__.'/tupusat-auth.php';
+require __DIR__.'/tuunit-auth.php';
