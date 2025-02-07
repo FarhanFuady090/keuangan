@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\admin\Auth;
+namespace App\Http\Controllers\Admin\Auth;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Auth\AdminRequest;
@@ -19,16 +19,22 @@ class LoginController extends Controller
         return view('admin.auth.login');
     }
 
-    /**
-     * Handle an incoming authentication request.
-     */
     public function store(AdminRequest $request): RedirectResponse
     {
         $request->authenticate();
 
-        $request->session()->regenerate();
+        // $request->session()->regenerate();
 
-        return redirect()->intended(route('admin.dashboard', absolute: false));
+        // return redirect()->intended(route('admin.dashboard', absolute: false));
+        if (Auth::attempt()) {
+            $request->session()->regenerate();
+
+            return redirect()->intended(route('admin.dashboard', absolute: false));
+        } else {
+            $request->session()->regenerate();
+
+            return redirect()->intended(route('admin.login', absolute: true));
+        }
     }
 
     /**

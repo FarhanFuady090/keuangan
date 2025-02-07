@@ -12,7 +12,20 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('jenispembayaran', function (Blueprint $table) {
-            $table->id();
+            $table->id('idjenispembayaran');
+            $table->string('nama_pembayaran', 255);
+            $table->enum('type', ['Bulanan', 'Semester', 'Tahunan', 'Bebas']);
+            // $table->year('tahun');
+            $table->bigInteger('nominal_jenispembayaran');
+            $table->enum('status', ['AKTIF', 'TIDAK AKTIF'])->default('AKTIF');
+            $table->unsignedBigInteger('idunitpendidikan');
+            $table->unsignedBigInteger('id_tahunajaran');
+
+
+            $table->foreign('idunitpendidikan')->references('id')->on('unitpendidikan')->onUpdate('cascade')->onDelete('cascade');;
+            $table->foreign('id_tahunajaran')->references('id')->on('tahunajaran')->onUpdate('cascade')->onDelete('cascade');
+
+
             $table->timestamps();
         });
     }
